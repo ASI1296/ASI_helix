@@ -1,0 +1,28 @@
+# 主题
+theme = "base16_transparent" 
+
+# 编辑相关
+[editor]
+line-number = "relative"
+mouse = false
+color-modes = false
+true-color = true
+
+# 配置编辑器底部的状态行
+[editor.statusline]
+mode.normal = "N"
+mode.insert = "I"
+mode.select = "S"
+
+# LSP集成
+[editor.lsp]
+
+#定义每种模式下光标的形状
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+# 设置文件选取器和全局搜索
+[editor.file-picker]
+hidden = false
